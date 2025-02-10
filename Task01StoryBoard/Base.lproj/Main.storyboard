@@ -37,10 +37,15 @@
                                     <constraint firstAttribute="height" constant="200" id="NIO-v7-w7r"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kailash Rajput" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRc-RO-sYx">
-                                <rect key="frame" x="103.33333333333333" y="277" width="186.66666666666669" height="34.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="29"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRc-RO-sYx">
+                                <rect key="frame" x="137.66666666666666" y="277" width="117.66666666666666" height="34.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Kailash Rajput">
+                                        <attributes>
+                                            <font key="NSFont" size="29" name="SavoyeLetPlain"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nwU-Bb-CLu">
